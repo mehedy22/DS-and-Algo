@@ -1,4 +1,4 @@
-package Algorithms.recursion;
+package Algorithms.recursion.problems;
 
 public class FibonacciNumber {
 
