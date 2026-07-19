@@ -1,6 +1,6 @@
+package Algorithms.recursion.problems;
 
-public class Main {
-
+public class GeekOonacciNumber {
     static int geekonacchi(int n) {
         if (n == 1) {
             return 1;
