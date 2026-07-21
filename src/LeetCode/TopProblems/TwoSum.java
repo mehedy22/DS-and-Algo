@@ -22,21 +22,21 @@ public class TwoSum {
         return new int[]{-1,-1};
     }
 
-    public int[] twoSum(int[] nums, int target) {
-        int[] nums = {3, 3};
-        int target = 6;
-
-        int[] res = {-1, -1};
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i + 1; j < nums.length; j++) {
-                if (nums[i] + nums[j] == target) {
-                    res[0] = i;
-                    res[1] = j;
-                    break;
-                }
-            }
-        }
-
-        System.out.println(Arrays.toString(res));
-    }
+//    public int[] twoSum(int[] nums, int target) {
+//        int[] nums = {3, 3};
+//        int target = 6;
+//
+//        int[] res = {-1, -1};
+//        for (int i = 0; i < nums.length; i++) {
+//            for (int j = i + 1; j < nums.length; j++) {
+//                if (nums[i] + nums[j] == target) {
+//                    res[0] = i;
+//                    res[1] = j;
+//                    break;
+//                }
+//            }
+//        }
+//
+//        System.out.println(Arrays.toString(res));
+//    }
 }
