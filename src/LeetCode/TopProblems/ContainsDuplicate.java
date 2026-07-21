@@ -35,7 +35,7 @@ If any number has a frequency greater than 1, return true. Otherwise, return fal
      *
      */
 
-    public boolean containsDuplicate(int[] nums) {
+   /* public boolean containsDuplicate(int[] nums) {
 
         Set<Integer> set = new HashSet<>();
 
@@ -47,7 +47,7 @@ If any number has a frequency greater than 1, return true. Otherwise, return fal
         }
 
         return false;
-    }
+    }*/
 
 }
 
