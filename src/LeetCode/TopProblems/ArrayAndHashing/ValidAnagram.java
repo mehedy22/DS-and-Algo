@@ -24,7 +24,7 @@ public class ValidAnagram {
     *  the strings are anagrams.
     */
 
-   /* public boolean isAnagram(String s, String t) {
+    public boolean isAnagram(String s, String t) {
 
         Map<Character,Integer> count=new HashMap<>();
         for(char st:s.toCharArray()){
@@ -42,6 +42,6 @@ public class ValidAnagram {
 
         return true;
 
-    }*/
+    }
 
 }
