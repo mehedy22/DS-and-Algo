@@ -1,4 +1,4 @@
-package LeetCode;
+package leetcode;
 
 /*
  * Here we have to do concatenation of array. So we take a result array with the double length of the current one.

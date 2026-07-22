@@ -1,4 +1,4 @@
-package LeetCode.TopProblems.ArrayAndHashing;
+package leetcode.topproblems.arrayandhashing;
 
 public class ProductOfArrayExceptSelf {
 
