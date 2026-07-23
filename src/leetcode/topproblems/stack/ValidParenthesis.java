@@ -1,0 +1,37 @@
+package leetcode.topproblems.stack;
+
+import java.util.Stack;
+
+public class ValidParenthesis {
+    public boolean isValid(String s) {
+
+        Stack<Character> stack = new Stack<>();
+
+        for (char ch : s.toCharArray()) {
+
+            // Push opening brackets
+            if (ch == '(' || ch == '{' || ch == '[') {
+                stack.push(ch);
+            } else {
+
+                // No matching opening bracket
+                if (stack.isEmpty()) {
+                    return false;
+                }
+
+                char top = stack.pop();
+
+                // Check matching brackets
+                if ((ch == ')' && top != '(') ||
+                        (ch == '}' && top != '{') ||
+                        (ch == ']' && top != '[')) {
+                    return false;
+                }
+            }
+        }
+
+        // Stack should be empty if all brackets are matched
+        return stack.isEmpty();
+    }
+
+}
